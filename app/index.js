@@ -1,12 +1,10 @@
 // app/index.js
-const calc = require('./calc')
+const twoNodeDemo = require('./twoNodeDemo')
 
-const numbersToAdd = [  
-  3,
-  4,
-  10,
-  2
+const nodesToAdd = [  
+  "its raining",
+  "I should pack an umbrella",
 ]
 
-const result = calc.sum(numbersToAdd)  
+const result = twoNodeDemo.add(nodesToAdd)  
 console.log(`The result is: ${result}`)  
